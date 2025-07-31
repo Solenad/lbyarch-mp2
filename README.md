@@ -1,4 +1,4 @@
-<img width="679" height="814" alt="image" src="https://github.com/user-attachments/assets/eda6db29-e39e-4937-9316-ac115a05ba3e" /># # [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
+## [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
 This project uses x86-to-C interface as a platform for achieving the required problem specs.
 
 ## **Project specifications**   
