@@ -15,17 +15,16 @@ int main() {
     double* output = malloc(width * height * sizeof(double));
     
     // inputted values (comment out for testing)
-    /* printf("Enter pixel values (comma separated):\n"); */
-    /* for (int i = 0; i < width * height; i++) { */
-    /*     scanf("%hhu,", &input[i]); */
-    /* } */
+    for (int i = 0; i < width * height; i++) {
+        scanf("%hhu,", &input[i]);
+    }
 
     
     // auto generated values
-    srand(time(0));
-    for (i = 0; i < width * height; i++) {
-        input[i] = rand() % 256;
-    }
+    /* srand(time(0)); */
+    /* for (i = 0; i < width * height; i++) { */
+    /*     input[i] = rand() % 256; */
+    /* } */
 
 
     // usage of windows.h library to access QueryPerformanceCounter (more accurate
@@ -54,13 +53,13 @@ int main() {
     printf("\nAverage execution time for %d runs: %.6f seconds\n", NUM_RUNS, avg_time);
 
     // comment out when testing with larger values
-    /* printf("Converted image:\n"); */
-    /* for (int i = 0; i < height; i++) { */
-    /*     for (int j = 0; j < width; j++) { */
-    /*         printf("%.2f ", output[i * width + j]); */
-    /*     } */
-    /*     printf("\n"); */
-    /* } */
+    printf("Converted image:\n");
+    for (int i = 0; i < height; i++) {
+        for (int j = 0; j < width; j++) {
+            printf("%.2f ", output[i * width + j]);
+        }
+        printf("\n");
+    }
 
 
   
