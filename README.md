@@ -1,3 +1,8 @@
+## Members
+DIZON, ROHANN GABRIEL DELA CRUZ
+COLUSO, ZEN MATTHEW RITUAL
+
+
 ## [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
 This project uses x86-to-C interface as a platform for achieving the required problem specs.
 
