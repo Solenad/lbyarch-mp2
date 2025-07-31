@@ -1,4 +1,4 @@
-# # [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
+<img width="679" height="814" alt="image" src="https://github.com/user-attachments/assets/eda6db29-e39e-4937-9316-ac115a05ba3e" /># # [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
 This project uses x86-to-C interface as a platform for achieving the required problem specs.
 
 ## **Project specifications**   
@@ -97,7 +97,8 @@ for (i = 0; i < width * height; i++) {
 
 ## Sample Outputs
 Correctness check result given example:  
-(image here)
+<img width="708" height="848" alt="correctness_check" src="https://github.com/user-attachments/assets/51918ed6-6afb-4f29-b629-1806a2f4943b" />
 
 Result for testing average execution time of 1000 * 1000:  
-(image here)
+<img width="795" height="797" alt="Screenshot_48" src="https://github.com/user-attachments/assets/dbd806c6-9546-4875-8da3-90774227404d" />
+
