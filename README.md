@@ -1,11 +1,12 @@
+## [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
+This project uses x86-to-C interface as a platform for achieving the required problem specs.
+
+
 ## Members
 DIZON, ROHANN GABRIEL DELA CRUZ
 
 COLUSO, ZEN MATTHEW RITUAL
 
-
-## [LBYARCH] Machine Project 2: Image Format Conversion (uint8 to double)
-This project uses x86-to-C interface as a platform for achieving the required problem specs.
 
 ## **Project specifications**   
 A grayscale image is internally represented as a 2 dimensional array. Size is defined by the number of pixels in a row (width), and number of pixels in a column (height). Each cell represents the pixel value. Pixel values in grayscale are represented as white, black, and shades of gray using different numerical data type representation depending on the library used. 
